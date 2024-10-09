@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  background-color: black;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  font-size: xx-large;
+  color: black;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center {
+  
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+}
+
+.homepic {
+  
+  max-width: 2000px;
+  width: 1920;
+}
+
+.navbar {
+  border: 3px;
+  overflow: hidden; /* Hide overflow */
+  color: #ffffff; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+
+.header {
+    
+    text-align: center; /* center the text */
+    background: #ffffff; /* green background */
+    color: white; /* white text color */
+  }

@@ -1,0 +1,166 @@
+/* character.css */
+
+/* Menggeser karakter lebih bawah dari judul */
+
+main {
+  margin-top: 40px;
+}
+
+.char-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.char-box {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: 700px;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; 
+}
+
+.char-box:hover {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+.wordw h5 {
+  font-size: 20px;
+  color: red;
+  margin-bottom: 10px;
+}
+
+.wordy h5 {
+  font-size: 20px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 20px; 
+}
+
+.hero-desc {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+.hero-box {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 20px;
+}
+
+.rowy {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.column {
+  display: flex;
+  justify-content: center;
+}
+
+.column img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.column img:hover {
+  transform: scale(1.05);
+}
+
+
+ /* .char-container {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.char-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+
+}
+
+.wordw h5{
+  text-align: center;
+  font-size: 32px;
+  color: red
+}
+
+
+.wordy h5{
+  text-align: center;
+  font-size: 32px;
+  color: green;
+}
+
+.words h5{
+  color: antiquewhite;
+  text-align: center;
+  font-size: 50px;
+}
+
+.chartitle h5{
+  text-align: center;
+  font-size: 32px;
+}
+
+.rowy {
+  max-width: 25%;
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
+
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+} */
